@@ -130,6 +130,9 @@ $wgDefaultSkin = "vector-2022";
 
 wfLoadExtension( 'VisualEditor' );
 
+wfLoadExtension( 'TinyMCE' );
+$wgTinyMCEEnabled = true;
+
 
 
 
